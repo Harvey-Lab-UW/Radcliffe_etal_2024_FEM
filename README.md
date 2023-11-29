@@ -1,6 +1,6 @@
 # Radcliffe_etal_2024_FEM
 
-This is the latest release of data for reproducing the analyses in the manuscript 'How are long-term stand structure, fuel profiles, and potential fire behavior affected by fuel treatment type and intensity in Interior Pacific Northwest forests?' by Radcliffe, Bakker, Churchill, Alvarado, Peterson, Laughlin, and Harvey, published in *Forest Ecology and Management*. See the main text of the manuscript for complete description of data collection and analyses.
+This is the latest release of data for reproducing the analyses in the manuscript 'How are long-term stand structure, fuel profiles, and potential fire behavior affected by fuel treatment type and intensity in Interior Pacific Northwest forests?' by Radcliffe, Bakker, Churchill, Alvarado, Peterson, Laughlin, and Harvey, published in *Forest Ecology and Management*. **See the main text of the manuscript for complete description of data collection, processing and analyses.**
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
