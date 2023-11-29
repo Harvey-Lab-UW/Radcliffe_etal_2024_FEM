@@ -1,6 +1,6 @@
 # Radcliffe_etal_2024_FEM
 
-This is the latest release of data for reproducing the analyses in the manuscript 'How are long-term stand structure, fuel profiles, and potential fire behavior affected by fuel treatment type and intensity in Interior Pacific Northwest forests?' by Radcliffe, Bakker, Churchill, Alvarado, Peterson, Laughlin, and Harvey, published in *Forest Ecology and Management*. See the main text of the manuscript for complete description of data processing.
+This is the latest release of data for reproducing the analyses in the manuscript 'How are long-term stand structure, fuel profiles, and potential fire behavior affected by fuel treatment type and intensity in Interior Pacific Northwest forests?' by Radcliffe, Bakker, Churchill, Alvarado, Peterson, Laughlin, and Harvey, published in *Forest Ecology and Management*. See the main text of the manuscript for complete description of data collection and analyses.
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
@@ -25,7 +25,7 @@ There are 3 main data files made available for reproducibility purposes:
 
 **plot_level_data.csv**
 
-This file contains information aggregated at the plot-level, including predictor variables, field-measured response variables, and modelled response variables.  These data are presented in 'long' format for easy processing with tidyverse() functions in R.  The following columns are included:
+This file contains information aggregated at the plot-level, including predictor variables, field-measured response variables, and modelled response variables.  These data are presented in 'long' format for easy processing with Tidyverse functions in R.  The following columns are included:
 
 * **plot**: unique identifier for plot, presented as unit_number.
 * **period**: period of data collection: pre-treatment (2000-2001), and long-term (2019-2020, 13-18 years after treatment).
@@ -39,10 +39,10 @@ This file contains information aggregated at the plot-level, including predictor
 This file contains information aggregated at the individual tree-level for live trees only, necessary for modelling tree mortality and canopy fuel.  To intuitively preserve information at the individual tree level, this file is somewhat 'wider' than the plot_level_data.csv.  The following columns are included:
 
 * **plot**: unique identifier for plot, presented as unit_number.
-* **plot_size**: area in square meters of the plot in which trees were measured.
+* **plot_size**: area, in square meters, of the plot in which trees were measured.
 * **period**: period of data collection: pre-treatment (2000-2001), and long-term (2019-2020, 13-18 years after treatment).
-* **species**: species of individual tree; pipo = Pinus ponderosa, psme = Pseudotsuga menziesii, abgr = Abies grandis, laoc = Larix occidentalis.
-* **dbh**: diameter at breast height (1.37 meters), in centimeters, measured using standard protocols.
+* **species**: species of individual tree; pipo = *Pinus ponderosa*, psme = *Pseudotsuga menziesii*, abgr = *Abies grandis*, laoc = *Larix occidentalis*.
+* **dbh**: diameter at breast height, in centimeters, measured using standard protocols.
 * **height_to_live_crown**: lowest height where continuous live canopy begins on a tree, in meters.
 * **total_height**: total height of the tree, in meters.
 
@@ -56,7 +56,5 @@ This file gives the experimental unit name and treatment type for each of the 20
 * **treatment**: treatment type applied to plot.  Includes control, burn, thin, and thin plus burn units.  See publication for more information.
 
 
-In addition, there are three metadata files included to provide additional context:
+In addition, there is one metadata files included to provide additional context:
 * **plot_level_variable_metadata.csv**: provides information on units and collection of variables, to contextualize the 'variable' and 'value' columns in the plot_level_data.csv file.
-* **plot_level_metadata.csv**: provides information at the column level for plot level data, largely duplicative of information listed above.
-* **tree_level_metadata.csv**: provides information at the column level for tree level data, largely duplicative of information listed above. 
