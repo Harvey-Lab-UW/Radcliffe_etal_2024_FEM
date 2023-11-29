@@ -1,8 +1,0 @@
-column,units,notes
-plot,NA,"plots were monumented and therefore measured from same centerpoint, pre-treatment and long-term"
-plot_size,meters squared,"there were different plot size determination protocol between pre-treatment and long-term, see publication"
-period,NA,"pretreatment: 2000-2001, longterm: 2019-2020 (13-18 years following treatment)"
-species,NA,"pipo = Pinus ponderosa, psme = Pseudotsuga menziesii, abgr = Abies grandis, laoc = Larix occidentalis"
-dbh,centimeters,diameter at breast height using standard protocols
-height_to_live_crown,meters,height where continuous live canopy begins on a tree
-total_height,meters,total height of a tree
