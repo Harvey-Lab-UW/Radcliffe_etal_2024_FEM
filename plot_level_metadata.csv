@@ -1,0 +1,6 @@
+column,units,notes
+plot,NA,"plots were monumented and therefore measured from same centerpoint, pre-treatment and long-term"
+period,NA,"pretreatment: 2000-2001, longterm: 2019-2020 (13-18 years following treatment)"
+variable,NA,see 'plot_level_variable_metadata.csv' for more information on individual variables
+value,depends on variables,see 'plot_level_variable_metadata.csv' for more information on individual variables
+variable type,NA,"whether variable was used as a predictor, as a field-collected response variable, or as a modelled response variable (from FVS-FFE or FOFEM). See publication for more information"
